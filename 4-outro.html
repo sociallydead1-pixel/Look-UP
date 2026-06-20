@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>The End of the Journey</title>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="page-outro">
+
+    <!-- Background canvas for animated stars -->
+    <canvas id="bg-canvas"></canvas>
+
+    <main class="outro-container">
+
+      <!-- Decorative constellation icon -->
+      <div class="outro-icon" aria-hidden="true">✦ ✧ ✦</div>
+      
+      <h1 class="outro-title">Knew you could find it</h1>
+
+      <div class="outro-message">
+        <p>
+          Not every star shines the brightest.
+          Some are simply the ones worth remembering.
+        </p>
+        <p>
+         just wanted to say thank you for being there for me, I really appreciate you.
+        </p>
+     
+        <p class="outro-signature">— WildCat ✦</p>
+      </div>
+
+      <a href="./index.html" class="intro-btn outro-btn">
+        <span class="btn-text">look back up</span>
+        <span class="btn-sparkle">✦</span>
+      </a>
+
+    </main>
+
+    <audio id="bg-music" loop preload="auto">
+      <source src="ambient.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Music toggle button -->
+    <button class="music-toggle" id="music-toggle" aria-label="Toggle music" title="Play / Pause music">
+      <span class="music-icon-play">♪</span>
+      <span class="music-icon-pause">⏸</span>
+    </button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
